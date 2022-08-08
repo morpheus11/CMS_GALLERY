@@ -7,7 +7,7 @@ My plan is to make a very simple OOP PHP system with a UML schema
  
 ## ✨ Demo
 
-`readme-md-generator` is able to read your environment (package.json, git config...) to suggest you default answers during the `README.md` creation process:
+`readme-md-generator` This image is friendly taken from a site [Visual Paradigm](https://www.visual-paradigm.com/guide/uml-unified-modeling-language/what-is-class-diagram/) that essentially shows the principle of the paradigm. `README.md` creation process:
 
 <p align="center">
   <img width="700" align="center" src="https://cdn-images.visual-paradigm.com/guide/uml/what-is-class-diagram/what-is-class-diagram.png" alt="demo"/>
