@@ -1,3 +1,3 @@
 <?php 
-include("lib/Classes/ClassConnectDB/init.php")
+$database->openDbConnections();
  ?>

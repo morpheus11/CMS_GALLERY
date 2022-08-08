@@ -8,9 +8,18 @@ require_once("config.php");
  */
 class ClassDatabaseConnect
 {
-	private $connection;
-	
-	function openDbConnections()
+	public $lol = "dfgdfg";
+
+
+
+	function __construct(){
+		echo "string";
+		$this->openDbConnections();
+	}
+
+
+
+	public function openDbConnections()
 	{
 		$this->connection = mysqli_connect(DB_HOST,DB_USER,DB_PASS,DB_NAME);
      	if(mysqli_connect_errno()){
@@ -19,5 +28,9 @@ class ClassDatabaseConnect
 
 	}
 }
+
+ $database = new ClassDatabaseConnect();
+$database->lol ;
+
 
  ?>
