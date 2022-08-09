@@ -12,3 +12,14 @@ My plan is to make a very simple OOP PHP system with a UML schema
 <p align="center">
   <img width="700" align="center" src="https://cdn-images.visual-paradigm.com/guide/uml/what-is-class-diagram/what-is-class-diagram.png" alt="demo"/>
 </p>
+
+<details>
+  <summary>ClassDatabaseConnect</summary>
+  
+  Spoiler text. Note that it's important to have a space after the summary tag. You should be able to write any markdown you want inside the `<details>` tag... just make sure you close `<details>` afterward.
+  
+  ```javascript
+  console.log("I'm a code block!");
+  ```
+  
+</details>
