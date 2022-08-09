@@ -8,7 +8,7 @@ require_once("config.php");
  */
 class ClassDatabaseConnect
 {
-	public $lol = "dfgdfg";
+	public $connection;
 
 
 
@@ -30,7 +30,5 @@ class ClassDatabaseConnect
 }
 
  $database = new ClassDatabaseConnect();
-$database->lol ;
-
 
  ?>
