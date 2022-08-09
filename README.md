@@ -1,8 +1,9 @@
 <h1 align="center">CMS GALLERY 👋</h1>
 
 ## 🚀 Usage
-CMS project under development :-)
+>CMS project under development :-)
 Hi guys, in this thread I am happy to make a small description of the CMS GALLERY. All codes will be simplified and all classes will be described as much as possible.
+
 My plan is to make a very simple OOP PHP system with a UML schema
  
 ## ✨ Demo
@@ -16,7 +17,7 @@ My plan is to make a very simple OOP PHP system with a UML schema
 <details>
   <summary>ClassDatabaseConnect</summary>
  
-  <img align="center" src="https://raw.githubusercontent.com/morpheus11/CMS_GALLERY/main/lib/Classes/ClassConnectDB/ClassDatabaseConnect.jpg" alt="demo"/>
+  <img align="center" src="https://raw.githubusercontent.com/morpheus11/CMS_GALLERY/main/lib/Classes/ClassConnectDB/ClassDatabaseConnect.jpg" alt="ClassDatabaseConnect"/>
   
   Spoiler text. Note that it's important to have a space after the summary tag. You should be able to write any markdown you want inside the `<details>` tag... just make sure you close `<details>` afterward.
   
