@@ -21,8 +21,67 @@ My plan is to make a very simple OOP PHP system with a UML schema
   
   Spoiler text. Note that it's important to have a space after the summary tag. You should be able to write any markdown you want inside the `<details>` tag... just make sure you close `<details>` afterward.
   
-  ```javascript
-  console.log("I'm a code block!");
+  ```php
+  <?php 
+
+require_once("config.php");
+
+/**
+ * ClassDatabaseConnect function openDbConnections for connect with db
+ * or give error info
+ */
+class ClassDatabaseConnect
+{
+	public $connection;
+
+
+
+	function __construct(){
+		echo "string";
+		$this->openDbConnections();
+	}
+
+
+
+	public function openDbConnections()
+	{
+		$this->connection = mysqli_connect(DB_HOST,DB_USER,DB_PASS,DB_NAME);
+     	if(mysqli_connect_errno()){
+     		die("mysqli connectio die with error" . mysqli_error());
+     	}
+
+	}
+
+	public function query($sql) {
+
+	$result = musqli_query($this->connection, $sql);
+	
+	return $result;	
+
+	}
+
+	private function confirm_query($result){
+
+		if(!result) {
+		die("Query Failed");	
+		}
+
+	}
+
+
+	public function escape_string($string) {
+		$escaped_string = mysqli_real_escape_string($this->connection,$string);
+		return $escaped_string;
+
+
+	}
+
+
+}
+
+ $database = new ClassDatabaseConnect();
+
+ ?>
   ```
   
 </details>
