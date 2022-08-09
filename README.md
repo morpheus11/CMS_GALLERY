@@ -20,7 +20,7 @@ My plan is to make a very simple OOP PHP system with a UML schema
   <img align="center" src="https://raw.githubusercontent.com/morpheus11/CMS_GALLERY/main/lib/Classes/ClassDatabaseConnect/ClassDatabaseConnect.jpg"
   alt="ClassDatabaseConnect"/>
   
- Constructor of this Class  automaticly started when this class becomen included in exuctuble file. By constructor method openDbConnection initialized automaticly. Spoiler text. Note that it's important to have a space after the summary tag. You should be able to write any markdown you want inside the `<details>` tag... just make sure you close `<details>` afterward.
+The constructor of this class is automatically run when this class is included in the executable. The 'openConnection()' constructor method is initialized automatically.
 <details>
 <summary>Code ClassDatabaseConnect</summary>
 	
