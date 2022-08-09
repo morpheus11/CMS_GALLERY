@@ -20,7 +20,7 @@ My plan is to make a very simple OOP PHP system with a UML schema
   <img align="center" src="https://raw.githubusercontent.com/morpheus11/CMS_GALLERY/main/lib/Classes/ClassDatabaseConnect/ClassDatabaseConnect.jpg"
   alt="ClassDatabaseConnect"/>
   
-The constructor of this class is automatically run when this class is included in the executable. The '<openConnection()>' constructor method is initialized automatically.
+The constructor of this class is automatically run when this class is included in the executable. The `openConnection()` constructor method is initialized automatically.
 <details>
 <summary>Code ClassDatabaseConnect</summary>
 	
