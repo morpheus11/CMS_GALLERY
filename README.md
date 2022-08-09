@@ -6,9 +6,9 @@ Hi guys, in this thread I am happy to make a small description of the CMS GALLER
 
 My plan is to make a very simple OOP PHP system with a UML schema
  
-## ✨ Demo
+## ✨ UML scheme 
 
-`OOP Principle` This image is friendly taken from a site [Visual Paradigm](https://www.visual-paradigm.com/guide/uml-unified-modeling-language/what-is-class-diagram/) that essentially shows the principle of the paradigm. `UML Scheme` process:
+`OOP Principle` the whole project will be executed according to the uml schema. This image is friendly taken from a site [Visual Paradigm](https://www.visual-paradigm.com/guide/uml-unified-modeling-language/what-is-class-diagram/) that essentially shows the principle of the paradigm. `UML Scheme` process:
 
 <p align="center">
   <img width="700" align="center" src="https://cdn-images.visual-paradigm.com/guide/uml/what-is-class-diagram/what-is-class-diagram.png" alt="demo"/>
