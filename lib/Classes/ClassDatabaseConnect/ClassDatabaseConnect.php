@@ -13,7 +13,6 @@ class ClassDatabaseConnect
 
 
 	function __construct(){
-		echo "string";
 		$this->openDbConnections();
 	}
 
@@ -30,7 +29,7 @@ class ClassDatabaseConnect
 
 	public function query($sql) {
 
-	$result = musqli_query($this->connection, $sql);
+	$result = mysqli_query($this->connection, $sql);
 	
 	return $result;	
 
