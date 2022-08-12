@@ -88,3 +88,7 @@ class ClassDatabaseConnect
   ```
 </details>  
 </details>
+
+<details>
+  <summary>ClassUser</summary>
+</details>
