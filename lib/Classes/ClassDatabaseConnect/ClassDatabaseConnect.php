@@ -3,20 +3,36 @@
 require_once("config.php");
 
 /**
+ * undocumented class
+ *
+ * @package default
+ * @author 
+ **/
+interface ClassDatabaseConnect_Interface
+{
+	function openDbConnections();
+	function query($sql);
+} // END interface ClassDatabaseConnect_Interface
+
+
+
+/**
  * ClassDatabaseConnect function openDbConnections for connect with db
  * or give error info
  */
-class ClassDatabaseConnect
+class ClassDatabaseConnect implements ClassDatabaseConnect_Interface
 {
 	public $connection;
-
+	
+    
 
 
 	function __construct(){
 		$this->openDbConnections();
+		
 	}
 
-
+   
 
 	public function openDbConnections()
 	{
@@ -35,7 +51,10 @@ class ClassDatabaseConnect
 
 	}
 
-	private function confirm_query($result){
+/*	This is not realized methods of class 
+	need for perform an  test*/
+
+	 private function confirm_query($result){
 
 		if(!result) {
 		die("Query Failed");	
@@ -43,6 +62,10 @@ class ClassDatabaseConnect
 
 	}
 
+/**
+ * This is not realized methods of class 
+ *need for perform an  test
+ */
 
 	public function escape_string($string) {
 		$escaped_string = mysqli_real_escape_string($this->connection,$string);
@@ -56,4 +79,7 @@ class ClassDatabaseConnect
 
  $database = new ClassDatabaseConnect();
 
+
+
  ?>
+
