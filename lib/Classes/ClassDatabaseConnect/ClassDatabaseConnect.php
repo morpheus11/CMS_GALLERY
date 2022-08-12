@@ -1,5 +1,7 @@
 <?php 
-
+/*
+*config.php all detail like a DB_HOST,DB_USER,DB_PASS,DB_NAME
+*/
 require_once("config.php");
 echo ("ClassDatabaseConnect.php connected"."<br>");
 /**
