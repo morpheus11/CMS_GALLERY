@@ -16,8 +16,7 @@ $result = $database->query($sql);
 $user_found = mysqli_fetch_array($result);
 
 echo $user_found['FirstName']." ".$user_found['LastName']." ".$user_found['Age']." ".$user_found ["Hometown"]." ".$user_found ["Job"];
-// var_dump(MainINTERFACE)
-// print_r(class_implements(ClassDatabaseConnect)) 
+
 ?>
 
 

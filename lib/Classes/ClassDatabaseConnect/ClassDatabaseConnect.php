@@ -1,7 +1,7 @@
 <?php 
 
 require_once("config.php");
-
+echo ("ClassDatabaseConnect.php connected"."<br>");
 /**
  * undocumented class
  *
@@ -78,8 +78,6 @@ class ClassDatabaseConnect implements ClassDatabaseConnect_Interface
 }
 
  $database = new ClassDatabaseConnect();
-
-
 
  ?>
 
