@@ -1,13 +1,13 @@
 <?php
 include("ClassDatabaseConnect.php");
 $sql = "SELECT
-  user.FirstName,
-  user.LastName,
-  user.Age,
-  user.Hometown,
-  user.Job
-FROM user
-WHERE user.id = 1";
+  users.FirstName,
+  users.LastName,
+  users.Age,
+  users.Hometown,
+  users.Job
+FROM users
+WHERE users.id = 1";
 /*
 *Initialization with only one method from ClassDatabaseConnect
 */
