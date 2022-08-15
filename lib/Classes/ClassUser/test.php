@@ -1,6 +1,7 @@
 <?php 
 include("..\init.php");
-echo("_____________________"."<br>");
+echo("___all_classes_connected_above______"."<br>");
+echo("_________________________________"."<br>");
 
 
 /*
