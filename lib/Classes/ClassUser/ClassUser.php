@@ -10,10 +10,10 @@ class ClassUser
 {
 
 	public $id;
-	public $username;
-	public $password;
-	public $first_name;
-	public $last_name;
+	public $UserName;
+	public $PassWord;
+	public $FirstName;
+	public $LastName;
 
 	public static function find_all_users() {
 
@@ -35,6 +35,22 @@ class ClassUser
 		$result_set = $database->query($sql);
 		return $result_set;
 	}
+
+private static function instantation(){
+
+$the_object = new self;
+
+$the_object->id 		= $found_user['id'];
+$the_object->UserName 	= $found_user['UserName'];
+$the_object->PassWord 	= $found_user['PassWord'];
+$the_object->FirstName 	= $found_user['FirstName'];
+$the_object->LastName 	= $found_user['LastName'];
+}
+
+
+
+
+
 
 } // END class ClassUser 
 

@@ -20,15 +20,14 @@ $found_user = ClassUser::find_user_by_id(3);
 
 
 
-
 $user = new ClassUser();
-$user->id = $found_user['id'];
-$user->username = $found_user['UserName'];
-$user->password = $found_user['PassWord'];
-$user->first_name = $found_user['FirstName'];
-$user->last_name = $found_user['LastName'];
+$user->id           = $found_user['id'];
+$user->UserName     = $found_user['UserName'];
+$user->PassWord     = $found_user['PassWord'];
+$user->FirstName    = $found_user['FirstName'];
+$user->LastName     = $found_user['LastName'];
 
-echo $user->username;
-
+echo $user->UserName;
+print_r($user)
 
  ?>
