@@ -16,7 +16,19 @@ echo $row['FirstName']."<br>";
 /*
 *Method for find special user by id
 */
-$found_user = ClassUser::find_user_by_id(2);
-echo $found_user['FirstName'];
+$found_user = ClassUser::find_user_by_id(3);
+
+
+
+
+$user = new ClassUser();
+$user->id = $found_user['id'];
+$user->username = $found_user['UserName'];
+$user->password = $found_user['PassWord'];
+$user->first_name = $found_user['FirstName'];
+$user->last_name = $found_user['LastName'];
+
+echo $user->username;
+
 
  ?>
